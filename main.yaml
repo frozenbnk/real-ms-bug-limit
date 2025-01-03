@@ -1,0 +1,243 @@
+- the fastest language is german
+- this is the no amiibo route 
+- it need 1 daruk amiibo, 7 epona amiibo and 1 box amiibo
+
+- Great Plateau:
+    - SoR:
+        icon: sor
+        comment: don't clip ;)
+    - _Equipment::Weapon<Axe>:
+        icon: equipment
+        movements:
+          - [-1024,1797.5]
+          - [-930,1873.5]
+    - Talk to Zelda:
+        icon: zelda
+        coord: [-801,1804.25]
+        comment: jump into flowers
+    - _Equipment::Bow<boko bow and arrows>:
+        icon: bow
+        movements:
+          - [-649.5,1761]
+          - [-611,1745.75]
+        notes: you should have 5 to 7 arrows
+    - Kill Bokoblin:
+        comment: shield and arrows
+        coord: [-603,1702]
+        icon: shield
+    - _Tower::GreatPlateau
+    - Talk to old man:
+        icon: king
+        notes: Up Down Down Up
+        comment: jump down
+        coord: [-575.75,1682.25]
+    - _Material<ruby>:
+        notes: .important(if you don't have DLC, you can get money later)
+    - _Shrine::OmanAu:
+        comment: Run to Shrine
+    - _Warp::SOR
+    - _Material<3 shroom>:
+        coord: [-1064.75,1808.5]
+        color: red
+        notes: for heal
+    - _Shrine::KehNamut:
+        comment: climb up
+    - _Shrine::OwaDaim:
+        notes: grab hammer in shrine for a safer run
+    - Stasis Launches To Bombs:
+        coord: [-675,2122]
+    - _Shrine::JaBaij
+    - run to Trees:
+        coord: [-646,2075.5]
+    - Paraglider:
+        coord: [-812,1967]
+        icon: king
+        comment: tree launch up
+    - _Warp::Shrine::OmanAu
+- Central:
+    - scan daruk:
+        comment: grab flint
+        coord: [-681.5,1497.75]
+        icon: daruk
+        color: green
+    - _Material<5 Hyrule Herbs>:
+        notes: for more heal     
+        coord: [-692.75,1487]
+    - scan Epona:
+        coord: [-687,1445.25]
+        icon: horse
+    - _Shrine::RotaOoh
+    - _Shrine::KaamYatak:
+        comment: EoD in shrine
+    - _Shrine::KatahChuki:
+        notes: use EoD
+    - _Material<Arrows and Apples>:
+        comment: Break Boxes in cave
+        coord: [-959,-650.5]
+    - _Shrine::NoyaNeha:
+        notes: use EoD
+        comment: Grab Shield and Guardian Axe
+    - _Shrine::ZaltaWa
+- tabantha:
+    - _Shrine::SheemDagoze:
+        movements:
+          -  [-1868.5,37.5]
+          - [-1892.5,90.875]
+    - _Equipment::Weapon<Axe>:
+        coord: [-2926.5,-594.75]
+    - _Npc<Long Hair man>:
+        notes: .important(only for no DLC users)
+        coord: [-2933.25,-586]
+    - _Shrine::ShaeLoya
+    - Tree Launch Up to Rito Village:
+        coord: [-3435.5,-1872]
+    - _Npc::Rito<Rito Master>:
+        coord: [-3627.5,-1841.5]
+    - _Npc::Rito<Teba's Wife>:
+        coord: [-3603.75,-1835]
+    - _Shrine::AkhVaquot:
+        notes: Hit All button once except the 2 button on the left column, These need 3 times
+    - _Shop<Rito Shop>:
+        notes: Sell Ruby and buy 4 sunshrooms
+        coord: [-3647.75,-1819.75]
+    - Go Down to trees:
+        coord: [-3654.25,-1807]
+    - _Shrine::ShaWarvo:
+        movements:
+          - [-3824.5,-2063]
+          - [-3822.25,-2207.0625]
+        comment: Tree Launch + Shield surf
+    - _Shrine::MakaRah:
+        comment: Eat food if you need
+    - _Warp::Shrine::ShaWarvo
+    - _Npc::Rito<Teba>:
+        coord: [-3801.75,-2313.25]
+        color: blue
+    - _Equipment::Bow<Bow and 10 arrows>:
+        coord: [-3791.875,-2326.5]
+    - _Cook<Mushroom Skewer>:
+        comment: 4 sunshroom
+        coord: [-3792.5,-2319]
+    - Do the Teba Test:
+        comment: Have an aimbot
+        icon: npc-rito
+        coord: [-3859,-2288.25]
+    - _Equipment::Bow<Falcon Bow>:
+        comment: equip it
+    - Enter Medoh:
+        icon: medoh-enter
+        notes: use falcon bow
+        coord: [-3618,-1795]
+    - Vah Medoh:
+        notes: .link([Follow this route] https://youtu.be/jOhEduB2DwA?si=s95u4BQacHlUkY__&t=2319)
+        icon: medoh-done
+        comment: grab heart
+        coord: [-3601.5,-1785]
+    - _Tod::Noon:
+        coord: [-3590.5,-1800]
+    - make a campfire on orange platform:
+        icon: cook
+        coord: [-3613.25,-1583.5]
+    - _Shrine::BareedaNaag:
+        notes: shoot bomb arrow on orange trigger
+    - _Warp::Shrine::KehNamut:
+        color: Maroon
+- Duellings Peaks:
+    - _Equipment::Bow<5 bomb arrows>:
+        comment: if you need bomb arrows
+        coord: [-1453.75,2026.75]
+        notes: .important(only for DLC users)
+    - _Shrine::DahKaso:
+        Notes: use EoD
+    - _Warp::Shrine::JaBaij:
+        color: MediumSeaGreen
+    - Scan Epona:
+        icon: horse
+        coord: [-392,1972.5]
+    - _Shrine::BoshKala
+    - _Shrine::SheeVaneer:
+        notes: use 3 gales to climb up to shrine
+    - _Shrine::SheeVenath:
+        comment: go down
+    - _Shrine::ReeDahee
+    - Scan Epona:
+        icon: horse
+        coord: [1317.5,1879.25]
+    - _Shrine::HaDahamar:
+        notes: .link([ha dahamar strategy] https://youtu.be/c09l1KZm1Ro?si=C0rw_psr_k6vUx_f&t=5144)
+    - _Equipment::Bow<10 Arrows>:
+        comment: if you need arrows
+        coord: [1907.5,2305.5]
+    - _Shrine::TotoSah:
+        notes: .link([Toto Sah Strategy] https://youtu.be/c09l1KZm1Ro?si=b1KsUTGp8xIZaY4U&t=5300)
+    - _Warp::Shrine::BoshKala:
+        color: Magenta
+- Lanayru:
+    - Scan Epona:
+        icon: horse
+        coord: [93,1616]
+    - _Equipment::Shield<Pot Lid>:
+        comment: for backup
+        coord: [323.5,1106.5]
+    - _Shrine::WahgoKatta:
+        notes: .link([Wahgo Katta Strategy] https://youtu.be/c09l1KZm1Ro?si=5Odvn1Bm8sboWnh2&t=5460)
+    - _Shrine::HilaRao:
+        notes: use 1 gale to exit the island
+    - _Shrine::DakaTuss:
+        notes: .link([Daka Tuss Strategy] https://youtu.be/L5BbHuJpJqw?si=31PubQ4US1-HfDYE&t=1747)
+        comment: not really precise
+    - _Shrine::KayaWan
+    - _Shrine::ShehRata:
+        notes: .link([Sheh Rata Strategy] https://youtu.be/c09l1KZm1Ro?si=pbf49z_bjfm_RqzB&t=6087)
+    - Zora's Cutscene Skip:
+        notes: .link([cutscene skip] https://youtu.be/c09l1KZm1Ro?si=5qu0dUQBuoMeZ9OP&t=6188) do the same thing but scan epona
+        icon: horse
+        coord: [1990,-145]
+    - _Shrine::SohKofi:
+        notes: use EoD ( throw EoD )
+- Akkala:
+    - _Shrine::TahMuhl:
+        movements:
+          - [2081,-395]
+          - [2301.3125,-941]
+        notes: .link([Tah Muhl Strategy] https://youtu.be/c09l1KZm1Ro?si=hiaSwoSvlWu-QbFY&t=6484)
+    - _Shrine::MoaKeet
+    - _Equipment::Weapon<double axe>:
+        coord: [2596.5,-1146]
+    - Tree Launches to Sah Dahaj:
+        movements:
+          - [2611.5,-1165.75]
+          - [2601.5,-1394.5]
+          - [2666,-1581]
+    - _Shrine::SahDahaj
+    - 1 Gale Up:
+        coord: [2653.75,-1477.75]
+    - Tree Launch Up:
+        coord: [2854,-1578.5]
+    - Scan Guardian or Giant Ancient Core:
+        comment: Box Launch to Ze Kasho
+    - _Shrine::ZeKasho
+    - Scan Epona:
+        icon: horse
+        coord: [3047.5,-1626.5]
+    - _Shrine::DahHesho
+    - _Warp::Shrine::ShehRata:
+        color: Yellow
+Woodland:
+    - Scan Epona:
+        icon: horse
+        coord: [1397,-456]
+    - _Shrine::MirroShaz
+    - Enter inside Korok forest:
+        coord: [438,-2064]
+    - _Shrine::KeoRuug
+    - _Shrine::MaagHalan:
+        comment: use 1 gale
+    - _Warp::Shrine::KeoRuug:
+        color: LemonChiffon
+    - Trade orbs for hearts:
+        icon: shop
+        coord: [435.75,-2201]
+    - _Equipment::Weapon<Master Sword>:
+        coord: [414.5,-2097.25]
+        notes: GG

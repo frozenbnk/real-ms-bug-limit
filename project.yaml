@@ -1,0 +1,29 @@
+title: master sword bug limit
+
+# The version of your route. There's no particular format here.
+# This will be displayed in the metadata in the settings dialog
+version: amiibo
+
+# This is the route itself. Here it points to the main.yaml file we created earlier
+route:
+  use: ./main.yaml
+
+# Extra configuration.
+# The project must define a map to compile properly.
+# For now, we will use the Breath of the Wild celer map maintained by Pistonight
+config:
+  - use: Pistonight/celer-presets/botw/full.yaml
+
+  - icons:
+      zelda: https://icons.pistonite.org/icon/character.zelda.none.69a2d5.c1fefe.8c5e28.ffffb5.8c5e28.ffffb5.png
+      sor: https://icons.pistonite.org/icon/location.sor.none.69a2d5.c1fefe.69a2d5.c1fefe.69a2d5.c1fefe.png
+      horse: https://icons.pistonite.org/icon/misc.horse.none.69a2d5.c1fefe.8c5e28.ffffb5.8c5e28.ffffb5.png
+      daruk: https://icons.pistonite.org/icon/character.daruk.none.69a2d5.c1fefe.8c5e28.ffffb5.8c5e28.ffffb5.png
+  - plugins:
+      - use: link
+      - use: variables 
+  
+  - tags:
+      important:
+        background: red
+        
