@@ -223,7 +223,7 @@
     - _Shrine::DahHesho
     - _Warp::Shrine::ShehRata:
         color: Yellow
-Woodland:
+-Woodland:
     - Scan Epona:
         icon: horse
         coord: [1397,-456]
